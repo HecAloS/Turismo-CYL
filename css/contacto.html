@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" >
+        <title>Contacto</title>
+        <style>
+            tr, td, form {
+                background-color: #ccddff
+            }
+            h3{
+                font-family: "Sofia", sans-serif;
+                background-color: rgb(25, 160, 131);
+                color: rgb(27, 36, 155);
+                text-align: center;
+                font-size: 150%
+            }
+            a:visited {
+            color: #002e4d;
+            }
+            a:hover {
+            color: #408000;
+            }
+            a:active {
+            color: #ffffb3;
+            }
+            p{
+            text-align: justify;
+            color: #808080;
+            font-family: "Lucida Console", "Courier New", monospace;
+            }
+        </style>
+
+    </head>
+    <body>
+        <table style="width: 100%">
+            <tr>
+                <th style="width: 20%"><a href="index.html">Inicio</a></th>
+                
+                <td>
+                    <p><h3>Contacto</h3></p>
+                    <p><a href="mailto:hector.alosan.1@educa.jcyl.es">Contactame por e-mail</a></p>
+                    <p><a href="https://www.instagram.com/ayuntamientodezamora/" target="_blank">Sigume en instagram</a></p>
+                    <p><a href="https://twitter.com/AytoZamora" target="_blank">Sigume en Twitter</a></p>
+                    
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <form action="contacto.html">
+            <fieldset>
+                <legend>Introduce tus datos</legend>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" value="Claudio Moyano"><br>
+                <label for="email">E-Mail:</label><br>
+                <input type="text" id="email" name="email" value="ejemplo@educa.jcyl.es"><br><br>
+                <input type="radio" id="hombre" name="genero" value="hombre">
+                <label for="hombre">Hombre</label><br>
+                <input type="radio" id="mujer" name="genero" value="mujer">
+                <label for="mujer">Mujer</label><br>
+                <input type="radio" id="otro" name="genero" value="otro">
+                <label for="otro">Otro</label><br>
+                <input type="checkbox" id="terminos" name="terminos" value="terminos">
+                <label for="vehicle1">Aceptas los terminos y condiones de esta web</label><br>
+                <input type="submit" value="Entregar">
+            </fieldset>
+          </form> 
+    </body>
+</html>

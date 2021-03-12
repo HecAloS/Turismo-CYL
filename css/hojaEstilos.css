@@ -1,0 +1,33 @@
+tr, td {
+    background-color: #ccddff
+  }
+h1{
+    font-family: "Sofia", sans-serif;
+    background-color: rgb(25, 160, 131);
+    color: rgb(27, 36, 155);
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 200%
+  }
+h2{
+    font-family: "Sofia", sans-serif;
+    background-color: rgb(25, 160, 131);
+    color: rgb(27, 36, 155);
+    text-align: center;
+    font-size: 150%
+  }
+a:visited {
+  color: #002e4d;
+}
+a:hover {
+  color: #408000;
+}
+a:active {
+  color: #ffffb3;
+}
+p{
+  text-align: justify;
+  color: #808080;
+  font-family: "Lucida Console", "Courier New", monospace;
+}

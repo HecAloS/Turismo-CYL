@@ -1,0 +1,50 @@
+/*Hoja de estilo creada por Hector Alonso para la asignatura de lenguaje de marcas
+[FEBRERO-MARZO/2021]*/
+tr, td {
+    background-color: #ccddff
+
+  }
+.recuadro {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid #ffccff;
+  margin: 0;
+}
+h1{
+  font-family: "Sofia", sans-serif;
+  background-color: rgb(25, 160, 131);
+  color: rgb(27, 36, 155);
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: 200%
+}
+h2{
+  font-family: "Sofia", sans-serif;
+  background-color: rgb(25, 160, 131);
+  color: rgb(27, 36, 155);
+  text-align: center;
+  font-size: 150%
+
+}
+.nombreParrafo{
+  padding: 40px;
+  color: #5c5cd6;
+  text-align: center;
+  font-size: 150%
+}
+.centrado{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a:visited {
+  color: #002e4d;
+  }
+a:hover {
+  color: #408000;
+  }
+a:active {
+  color: #ffffb3;
+  }
